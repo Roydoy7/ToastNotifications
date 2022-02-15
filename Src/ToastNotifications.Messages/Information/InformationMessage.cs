@@ -1,5 +1,4 @@
-﻿using System.Runtime.InteropServices;
-using System.Windows;
+﻿using System.Windows;
 using ToastNotifications.Core;
 using ToastNotifications.Messages.Core;
 
@@ -26,6 +25,9 @@ namespace ToastNotifications.Messages.Information
                 displayPart.Text.FontSize = options.FontSize.Value;
 
             displayPart.CloseButton.Visibility = options.ShowCloseButton ? Visibility.Visible : Visibility.Collapsed;
+
+            if (Options.BackgroundColor != null)
+                displayPart.ContentWrapper.Background = Options.BackgroundColor;
         }
     }
 }

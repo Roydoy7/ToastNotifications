@@ -134,12 +134,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\ToastNotifications\ToastNotifications.csproj">
-      <Project>{4a8879fc-9a6e-4904-910b-5c13fa5ed5be}</Project>
-      <Name>ToastNotifications</Name>
-    </ProjectReference>
-  </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

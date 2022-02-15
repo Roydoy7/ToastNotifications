@@ -9,13 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{54
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationExample", "Examples\ConfigurationExample\ConfigurationExample.csproj", "{F50D1BE4-2FF7-4E83-A149-104646FD6AC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToastNotifications", "ToastNotifications\ToastNotifications.csproj", "{4A8879FC-9A6E-4904-910B-5C13FA5ED5BE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToastNotifications.Messages", "ToastNotifications.Messages\ToastNotifications.Messages.csproj", "{4DE2F314-B19F-423E-92D8-7D3A7D9ACEA2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNotificationsExample", "Examples\CustomNotificationsExample\CustomNotificationsExample.csproj", "{C406B971-ED9A-4633-9626-32FEDCCF9262}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCoreUsageExample", "Examples\DotNetCoreUsageExample\DotNetCoreUsageExample.csproj", "{D4D3B08E-C53F-498F-B460-88F61BBB68DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetCoreUsageExample", "Examples\DotNetCoreUsageExample\DotNetCoreUsageExample.csproj", "{D4D3B08E-C53F-498F-B460-88F61BBB68DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToastNotifications.Sdk", "ToastNotifications\ToastNotifications.Sdk.csproj", "{78D31D8D-0BFA-4088-B03A-99436259B252}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToastNotifications.Messages.Sdk", "ToastNotifications.Messages\ToastNotifications.Messages.Sdk.csproj", "{5BB45A60-7934-4491-8549-31D600C95678}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,6 @@ Global
 		{F50D1BE4-2FF7-4E83-A149-104646FD6AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F50D1BE4-2FF7-4E83-A149-104646FD6AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F50D1BE4-2FF7-4E83-A149-104646FD6AC9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A8879FC-9A6E-4904-910B-5C13FA5ED5BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A8879FC-9A6E-4904-910B-5C13FA5ED5BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A8879FC-9A6E-4904-910B-5C13FA5ED5BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A8879FC-9A6E-4904-910B-5C13FA5ED5BE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4DE2F314-B19F-423E-92D8-7D3A7D9ACEA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4DE2F314-B19F-423E-92D8-7D3A7D9ACEA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4DE2F314-B19F-423E-92D8-7D3A7D9ACEA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4DE2F314-B19F-423E-92D8-7D3A7D9ACEA2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C406B971-ED9A-4633-9626-32FEDCCF9262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C406B971-ED9A-4633-9626-32FEDCCF9262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C406B971-ED9A-4633-9626-32FEDCCF9262}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -47,6 +39,14 @@ Global
 		{D4D3B08E-C53F-498F-B460-88F61BBB68DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D4D3B08E-C53F-498F-B460-88F61BBB68DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D4D3B08E-C53F-498F-B460-88F61BBB68DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78D31D8D-0BFA-4088-B03A-99436259B252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78D31D8D-0BFA-4088-B03A-99436259B252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78D31D8D-0BFA-4088-B03A-99436259B252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78D31D8D-0BFA-4088-B03A-99436259B252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BB45A60-7934-4491-8549-31D600C95678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BB45A60-7934-4491-8549-31D600C95678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BB45A60-7934-4491-8549-31D600C95678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BB45A60-7934-4491-8549-31D600C95678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

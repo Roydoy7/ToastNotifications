@@ -11,11 +11,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\ToastNotifications.Messages\ToastNotifications.Messages.csproj" />
-    <ProjectReference Include="..\..\ToastNotifications\ToastNotifications.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Resource Include="toast-notifications-icon.ico" />
   </ItemGroup>
 

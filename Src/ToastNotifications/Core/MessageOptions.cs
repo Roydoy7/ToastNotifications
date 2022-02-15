@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Windows.Media;
 
 namespace ToastNotifications.Core
 {
     public class MessageOptions
     {
         public double? FontSize { get; set; }
+        public SolidColorBrush BackgroundColor { get; set; }
 
         public bool ShowCloseButton { get; set; } = true;
 

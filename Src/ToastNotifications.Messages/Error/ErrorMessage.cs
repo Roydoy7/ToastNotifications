@@ -25,6 +25,9 @@ namespace ToastNotifications.Messages.Error
                 displayPart.Text.FontSize = options.FontSize.Value;
 
             displayPart.CloseButton.Visibility = options.ShowCloseButton ? Visibility.Visible : Visibility.Collapsed;
+
+            if (Options.BackgroundColor != null)
+                displayPart.ContentWrapper.Background = Options.BackgroundColor;
         }
     }
 }
